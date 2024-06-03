@@ -1,0 +1,2 @@
+PORT = 8000
+DATABASE_URL="mongodb+srv://hajirak414:<password>@cluster0.dxxxoea.mongodb.net/RealEstateApplication?retryWrites=true&w=majority&appName=Cluster0"
