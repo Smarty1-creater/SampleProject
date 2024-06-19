@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./searchBar.scss";
 
-const types = ["buy", "rent"];
+const types = ["buy", "rent","PG's"];
 
 function SearchBar() {
   const [query, setQuery] = useState({
