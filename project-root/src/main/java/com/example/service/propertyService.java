@@ -1,27 +1,27 @@
 package com.example.service;
 
-import com.example.model.Property;
-import com.example.repository.PropertyRepository;
+import com.example.model.property;
+import com.example.repository.propertyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class PropertyService {
+public class propertyService {
 
     @Autowired
-    private PropertyRepository propertyRepository;
+    private propertyRepository propertyRepository;
 
-    public List<Property> getAllProperties() {
+    public List<property> getAllProperties() {
         return propertyRepository.findAll();
     }
 
-    public Property getPropertyById(Long id) {
+    public property getPropertyById(Long id) {
         return propertyRepository.findById(id).orElse(null);
     }
 
-    public Property saveProperty(Property property) {
+    public property saveProperty(property property) {
         return propertyRepository.save(property);
     }
 
