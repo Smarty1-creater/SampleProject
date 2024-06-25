@@ -1,0 +1,13 @@
+com\example\model\property.class
+com\example\model\Seller.class
+com\example\repository\RequestRepository.class
+com\example\service\RequestService.class
+com\example\service\BuyerService.class
+com\example\repository\UserRepository.class
+com\example\config\AppConfig.class
+com\example\payload\LoginRequest.class
+com\example\repository\BuyerRepository.class
+com\example\model\Buyer.class
+com\example\model\Request.class
+com\example\model\User.class
+com\example\repository\SellerRepository.class
